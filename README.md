@@ -1,1 +1,1 @@
-Save into a folder called 'github' and use setup from other repo.
+Save into a folder called 'sup' and use setup from other repo.
