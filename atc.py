@@ -9,7 +9,8 @@ from pushbullet import Pushbullet
 
 
 notifications = userdata.notifications_on
-pb = Pushbullet('o.noQTZAyXTgibHUJTycFvbcOvLXnWrqtu')
+if notifications:	
+	pb = Pushbullet(userdata.api_key)
 session = requests.Session()
 
 def add_to_cart(sizeid, item_id, style_id):
