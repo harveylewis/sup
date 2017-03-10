@@ -36,8 +36,6 @@ user_cc_expiry_year= c.get("User","user_cc_expiry_year")
 user_cc_security_code= c.get("User","user_cc_security_code")
 
 notifications_on = c.getboolean("Notifications", "notifications_on")
-api_key = c.get("Notifications", "api_key")
 
 if notifications_on:
 	api_key = c.get("Notifications", "api_key")
-	pb = Pushbullet(api_key)
