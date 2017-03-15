@@ -139,7 +139,7 @@ data = request.json()
 
 
 
-new_data = wait_for_update(1489057185, data)
+new_data = wait_for_update(1489661985, data)
 print x_('SCRIPT STARTED')
 item_name, item_id = find_best_matched(userdata.KEYWORDS, userdata.CATEGORY, new_data)
 size_id, style_id = get_item_info(item_id)
