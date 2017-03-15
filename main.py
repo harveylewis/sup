@@ -33,7 +33,7 @@ def wait_for_update(time_to_start, previous_data): ## Used to wait for new produ
 		sleep(0.5)
 		print GMT() + ' :: Parsed for new links'
 		req = session.get('http://www.supremenewyork.com/mobile_stock.json')
-		data = req2.json()
+		data = req.json()
 
 		if data != previous_data:
 			break
