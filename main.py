@@ -4,8 +4,7 @@ from utils import *
 from pushbullet import Pushbullet
 
 
-if userdata.notifications:
-	pb = Pushbullet(userdata.api_key)
+
 
 
 with requests.Session() as session:
